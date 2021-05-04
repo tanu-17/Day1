@@ -1,0 +1,74 @@
+.navbar {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: normal;
+  margin-bottom: 2px;
+  background: #2b2e4a;
+  padding: 5px 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style: none;
+  text-align: left;
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-link {
+  display: block;
+  padding: 5px;
+  position: relative;
+  text-decoration: none;
+  color: #eeebdd;
+  font-weight: 800;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #bbbbbb;
+  z-index: 1;
+}
+.row {
+  display: inline;
+}
+
+.column-1 {
+  float: left;
+  width: 50%;
+}
+
+.skill-row {
+  display: block;
+  margin: 50px 0px 20px 40px;
+  text-align: left;
+  width: 90%;
+}
+.pic-1 {
+  border-radius: 5px;
+  width: 80%;
+  height: 300px;
+  margin-bottom: 0px;
+}
+.pic-2 {
+  border-radius: 5px;
+  padding-right: 8px;
+  width: 40%;
+}
+.pic-3 {
+  border-radius: 5px;
+  width: 40%;
+  height: 195px;
+}
+.column-2 {
+  float: right;
+  width: 50%;
+  margin-top: 50px;
+}
+.headline {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.headline a:hover {
+  color: red;
+}
